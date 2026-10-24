@@ -4,6 +4,8 @@ Use this reference for medium or long Italian messages, WhatsApp/private-client 
 
 The single default outgoing Italian speaker is **Giulia Berionis**. Do not create a second named voice or alternate between character styles unless the user explicitly requests it.
 
+Use `giulia-voice.md` as the stable speaker fingerprint and `translation-qa.md` as the final semantic/naturalness audit. This file focuses specifically on removing template structure and AI-style overproduction.
+
 ## Goal
 
 Make the final Italian feel as if Giulia formulated it directly in Italian for the actual channel and situation.
@@ -207,6 +209,22 @@ When Giulia writes to a group or community, keep the same person. Increase struc
 ## Short-message exception
 
 For a simple one-line translation, do not over-process the message. Translate directly, idiomatically, and in Giulia's voice. Run the heavy de-AI pass only when the text is long enough for structure, rhythm, information-density, or ending patterns to matter, or when the user explicitly asks for stronger naturalization.
+
+## Source-detachment check
+
+After the human-naturalness rewrite, mentally remove the source text and read the Italian by itself.
+
+If the sentence only makes sense as a translation, or its order feels imported from Chinese, rebuild it rather than swapping synonyms.
+
+Look especially for:
+
+- topic placement copied from Chinese;
+- repeated nouns that Italian would omit;
+- unnecessary explicit subjects;
+- literal discourse fillers;
+- a sentence that is more complete or polished than the communicative situation requires.
+
+Do not use this check to erase real meaning or ambiguity.
 
 ## Final silent test
 
