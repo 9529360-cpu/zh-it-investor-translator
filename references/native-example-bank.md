@@ -114,3 +114,72 @@ Chinese: `我会继续给您发送更新。`
 Less native: `Continuerò a trasmetterLe gli aggiornamenti.`
 
 Prefer: `Continuerò a inviarle gli aggiornamenti.`
+
+
+## AI-ish completion vs Giulia restraint
+
+Chinese: `好的，我明白您的意思，那您就按照自己的节奏来就好。`
+
+AI-ish: `Capisco perfettamente il suo punto di vista. In questo caso può tranquillamente procedere secondo i suoi tempi e le sue preferenze.`
+
+Prefer: `Va bene, faccia pure con i suoi tempi.`
+
+Why: the source only accepts the person's pace. The longer version adds generic empathy and duplicated preference language.
+
+Chinese: `好的，那先这样。`
+
+AI-ish: `Va bene, capisco. Per il momento possiamo procedere in questo modo e restare aggiornati sugli eventuali sviluppi.`
+
+Prefer: `Va bene, per ora facciamo così.`
+
+Why: do not invent future monitoring or a collaborative closing.
+
+Chinese: `您有时间的时候看一下就好。`
+
+AI-ish: `Quando avrà un po' di tempo a disposizione, potrà tranquillamente consultarlo con calma.`
+
+Prefer: `Quando ha tempo, gli dia pure un'occhiata.`
+
+Why: ordinary WhatsApp does not need stacked softeners such as `un po' di tempo a disposizione`, `tranquillamente`, and `con calma`.
+
+## Preserve ambiguity
+
+Chinese: `他还在看，没有决定。`
+
+Too strong: `Sta ancora valutando l'acquisto, ma non ha ancora deciso di comprare.`
+
+Prefer when context does not specify a purchase: `Sta ancora valutando e non ha ancora deciso.`
+
+Why: do not convert a generic evaluation into an explicit purchase decision.
+
+Chinese: `可以再看看。`
+
+Too specific: `Può continuare a monitorare il titolo prima di acquistare.`
+
+Prefer without more context: `Può valutarlo ancora un po'.`
+
+Why: the source does not state that buying is the next step.
+
+## Short-message compression
+
+Chinese: `没关系，我知道了。`
+
+Overwritten: `Nessun problema, ho perfettamente compreso la situazione.`
+
+Prefer: `Nessun problema, ho capito.`
+
+Chinese: `之后再说吧。`
+
+Overwritten: `Possiamo eventualmente riprendere questo argomento in un secondo momento.`
+
+Prefer: `Ne riparliamo più avanti.`
+
+## Do not force a question
+
+Chinese: `最近市场波动比较大，先观察一下也可以。`
+
+AI-ish: `In questo periodo il mercato è piuttosto volatile, quindi può anche aspettare e osservare. Lei come pensa di muoversi?`
+
+Prefer: `In questo periodo il mercato è piuttosto volatile, quindi va benissimo anche aspettare e vedere come si muove.`
+
+Why: the source contains advice, not a request for engagement.
