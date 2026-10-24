@@ -6,9 +6,9 @@ A focused Chinese–Italian translation Skill built around one simple goal:
 
 ## What it does
 
-- Chinese -> native Italian
-- Italian -> natural Chinese
-- Giulia Berionis as the single default outgoing Italian voice
+- Chinese -> native Italian in the fixed Giulia Berionis voice
+- Italian -> natural Chinese that preserves the original Italian speaker's own tone
+- Giulia applies only to outgoing Italian, never to incoming Italian -> Chinese translation
 - Lei/tu consistency
 - natural WhatsApp-style phrasing
 - financial terminology and action protection
