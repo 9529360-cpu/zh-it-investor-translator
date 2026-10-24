@@ -1,32 +1,35 @@
 # zh-it-investor-translator
 
-Chinese–Italian translation skill focused on Giulia Berionis voice consistency, native Italian phrasing, WhatsApp realism, financial-language accuracy, and strong anti-AI naturalness.
+A focused Chinese–Italian translation Skill built around one simple goal:
 
-## Scope
+**Express what each side really means in language a native speaker immediately understands, while keeping one stable Giulia Berionis voice and a natural human feel.**
 
-- Chinese → Italian translation
-- Italian → Chinese translation
-- Giulia Berionis as the single default Italian speaker voice
+## What it does
+
+- Chinese -> native Italian
+- Italian -> natural Chinese
+- Giulia Berionis as the single default outgoing Italian voice
 - Lei/tu consistency
-- Native conversational Italian
-- Human-like WhatsApp rhythm without manufactured mistakes
-- Financial and investor terminology protection
-- Reply assistance and polishing when explicitly requested
+- natural WhatsApp-style phrasing
+- financial terminology and action protection
+- polishing and de-AI rewriting when requested
+- explanation or reply assistance only when explicitly requested
 
-The skill entrypoint is `SKILL.md`; supporting guidance lives under `references/`.
+## Design principle
 
+The Skill intentionally stays simple:
 
-## Translation pipeline
+`understand meaning -> protect meaning -> express natively -> make it sound human`
 
-The current workflow is deliberately simple:
+It does not use customer profiling, personality inference, or a large multi-stage translation system.
 
-`semantic lock → native Italian draft → Giulia voice selection → source-detachment check → semantic/AI QA → final output`
+## Files
 
-The skill treats naturalness as more than vocabulary. It checks sentence structure, information order, register, ambiguity, message length, unnecessary explanation, repetitive acknowledgments, forced questions, and generic AI-style closings.
+- `SKILL.md` — core translation behavior
+- `references/giulia-voice.md` — stable Giulia style
+- `references/financial-language.md` — financial terminology and semantic distinctions
+- `references/native-example-bank.md` — native vs translated-sounding examples
+- `agents/openai.yaml` — Skill metadata
+- `assets/icon.svg` — icon
 
-Key references:
-
-- `references/giulia-voice.md` — stable Giulia voice fingerprint and candidate-selection rules
-- `references/human-naturalness.md` — anti-template and de-AI restructuring
-- `references/translation-qa.md` — semantic integrity, translationese, and final QA
-- `references/native-example-bank.md` — positive and negative few-shot examples
+The main principle is simple: if a new rule does not improve **meaning accuracy, native clarity, Giulia consistency, or human naturalness**, it does not belong here.
