@@ -1,0 +1,12 @@
+interface:
+  display_name: Chinese Italian Native Translator
+  short_description: Native Chinese-Italian investor and client messaging
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
