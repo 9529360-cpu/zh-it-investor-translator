@@ -1,4 +1,4 @@
-# Native Italian Example Bank
+# Bidirectional Native Example Bank
 
 ## Contents
 
@@ -11,7 +11,7 @@
 - Softening without becoming vague
 - Avoiding unnecessary formality
 
-Use these examples to resolve recurring Chinese-to-Italian calques and to guide polishing. Follow the pattern, not the wording mechanically.
+Use these examples to keep both translation directions native and faithful. Follow the pattern, not the wording mechanically. Chinese -> Italian examples follow Giulia's voice; Italian -> Chinese examples preserve the original speaker's own tone.
 
 ## Acknowledgment and preference
 
@@ -183,3 +183,75 @@ AI-ish: `In questo periodo il mercato è piuttosto volatile, quindi può anche a
 Prefer: `In questo periodo il mercato è piuttosto volatile, quindi va benissimo anche aspettare e vedere come si muove.`
 
 Why: the source contains advice, not a request for engagement.
+
+
+## Italian -> Chinese: preserve the speaker
+
+Italian: `Per ora preferisco di no.`
+
+Too soft: `我现在可能不是很方便。`
+
+Natural Chinese: `目前我还是不考虑了。`
+
+Why: this is a real refusal for now. Do not weaken it into inconvenience.
+
+Italian: `È da un po' che non seguo il mercato azionario.`
+
+Literal: `已经有一段时间我没有跟随股票市场了。`
+
+Natural Chinese: `我有一阵子没怎么关注股市了。`
+
+Why: translate the meaning into ordinary Chinese rather than Italian sentence structure.
+
+Italian: `Ci penso e ti faccio sapere.`
+
+Overexplained: `我会认真考虑一下这个事情，然后之后再给你一个明确的答复。`
+
+Natural Chinese: `我考虑一下，再告诉你。`
+
+Why: do not add seriousness, timing, or a promise of a definitive answer.
+
+Italian: `Magari più avanti.`
+
+Too definite: `以后我会考虑的。`
+
+Natural Chinese: `之后再说吧。`
+
+Alternative when the tone is genuinely open: `以后也许可以再看看。`
+
+Why: preserve the tentative tone; do not turn it into commitment.
+
+Italian: `Non me la sento di entrare adesso.`
+
+Too strong: `我现在不想买。`
+
+Natural Chinese: `我现在还不太想进场。`
+
+Why: `non me la sento` expresses reluctance or not feeling ready, not necessarily a hard rejection.
+
+Italian: `Va bene così.`
+
+Natural Chinese depends on context:
+
+- agreement with the current arrangement: `这样就可以了。`
+- closing the matter: `就这样吧。`
+
+Why: translate the conversational function, not just the dictionary meaning.
+
+## Italian chat shorthand -> natural Chinese
+
+Italian: `Cmq x ora passo 😅`
+
+Do not translate abbreviations literally.
+
+Natural Chinese: `不过我暂时还是算了 😅`
+
+Italian: `Nn ne so molto sinceramente.`
+
+Natural Chinese: `说实话，我对这个了解得不多。`
+
+Italian: `Vediamo più avanti.`
+
+Natural Chinese: `之后再看吧。`
+
+Keep the same degree of openness or distance. Do not add an explanation unless requested.
