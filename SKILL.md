@@ -35,9 +35,24 @@ Load supporting references only when their topic is relevant:
 - Use `references/native-example-bank.md` when polishing, comparing phrasings, resolving a recurring calque, or when a short sentence could be expressed several ways and native-style examples improve the choice.
 - Use `references/financial-language.md` only for investment, stock-market, trading, macroeconomic, portfolio, energy-market, or investor-community language.
 - Use `references/intent-and-replies.md` only for explanation or reply-assistance mode.
+- Use `references/giulia-voice.md` whenever outgoing Italian needs Giulia Berionis voice consistency, especially for WhatsApp/client messaging, polishing, or any phrasing choice where several native alternatives are possible.
 - Use `references/human-naturalness.md` for medium or long WhatsApp/private-client messages, group/community posts, polished client copy, or whenever the user asks for "去AI", human-sounding, spontaneous, less scripted, or non-template phrasing. Private WhatsApp/client conversation is the primary day-to-day use case; group posts are a narrower recurring format.
+- Use `references/translation-qa.md` for important, financial, medium/long, polished, or strongly humanized translations to check semantic integrity, register, translationese, AI-pattern residue, and unnecessary expansion before output.
 
 Do not load every reference for every translation. For a simple one-line translation, skip the full anti-template pass unless the user explicitly asks for it.
+
+## Internal translation pipeline
+
+For outgoing Italian, use this internal order:
+
+1. **Lock meaning**: identify the speech act, factual content, names, numbers, negation, certainty, risk language, financial action, ambiguity, and Lei/tu clues that must not drift.
+2. **Draft natively**: express the message using Italian information order and idiomatic collocations rather than Chinese syntax.
+3. **Apply Giulia voice**: keep the wording concise, modern, composed, socially plausible, and consistent with the established register.
+4. **Choose, don't blend**: when several phrasings are valid, silently consider a small number of native alternatives and choose the least translated and least AI-like version. Do not merge every good phrase into one over-written sentence.
+5. **Detach from the source**: mentally read the Italian alone. If the source language is visible through word order, repetition, or unnatural completeness, rewrite once.
+6. **Audit semantics**: compare the final candidate against the locked meaning. Fix any addition, omission, certainty shift, action shift, ambiguity loss, or register mismatch before output.
+
+For short ordinary translations, run this lightly and quickly. For important, financial, medium/long, polished, or explicitly de-AI requests, use the full checks in `references/translation-qa.md`.
 
 ## Translation strength
 
@@ -78,7 +93,7 @@ Apply these rules:
 
 If a direct translation is correct but sounds written by a non-native speaker, choose the native Italian equivalent as long as the factual and interpersonal meaning stays the same.
 
-Consult `references/mother-tongue-naturalness.md` for calques and native restructuring patterns when needed.
+Consult `references/mother-tongue-naturalness.md` for calques and native restructuring patterns when needed. Consult `references/giulia-voice.md` when selecting among several equally accurate Italian phrasings.
 
 ### Human-naturalness pass
 
@@ -91,7 +106,7 @@ For medium or long messages, especially private WhatsApp/client conversations, f
 - Do not invent typos, grammar mistakes, slang, or factual changes to make the text appear human.
 - Preserve Giulia Berionis as the single outgoing Italian speaker identity. In one-to-one WhatsApp/client conversation, she should sound responsive, concise, personal, natural, and low-pressure rather than like a broadcast script. In group/community copy, keep the same person and voice while adjusting only the amount of structure required by the format. Do not introduce or simulate another named speaker style unless the user explicitly asks for one.
 
-Consult `references/human-naturalness.md` for the full de-AI pattern check, paragraph rhythm guidance, and speaker-specific conventions.
+Consult `references/human-naturalness.md` for the full de-AI pattern check and paragraph rhythm guidance, `references/giulia-voice.md` for the stable speaker fingerprint, and `references/translation-qa.md` for the final semantic and naturalness audit.
 
 ### Lei / tu register
 
@@ -236,7 +251,11 @@ Before answering, verify:
 - certainty and risk levels have not changed;
 - no extra claim, promise, urgency, or pressure was introduced;
 - short chat messages remain natural and not over-written;
-- pure translation contains no extra commentary.
+- pure translation contains no extra commentary;
+- genuine ambiguity has not been silently resolved;
+- the output preserves the source's speech act rather than making it more persuasive, reassuring, or sales-oriented;
+- a short source has not been unnecessarily expanded;
+- the Italian still sounds natural when read without looking at the Chinese source.
 
 ## Quick examples
 
